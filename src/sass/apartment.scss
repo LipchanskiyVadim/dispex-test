@@ -1,0 +1,50 @@
+.apartment-list {
+  padding: 10px 0px 0px 20px;
+  font-size: 18px;
+
+  .apartment-item {
+    padding: 5px 0px;
+  }
+
+  .clients-list {
+    margin: 10px 0px 0px 70px;
+    color: black;
+    background-color: silver;
+    max-width: 80%;
+  }
+
+  .apartment-button {
+    margin: 10px;
+    padding: 5px 40px;
+    width: 150px;
+    border: 0.5px solid black;
+  }
+
+  .client-wrap {
+    margin: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .client-item {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+
+    span {
+      display: flex;
+      padding: 5px 0px;
+    }
+  }
+
+  .client-button {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .client-form {
+    input {
+      margin: 10px;
+    }
+  }
+}

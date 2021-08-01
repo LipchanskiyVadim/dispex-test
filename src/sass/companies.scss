@@ -1,0 +1,25 @@
+.companies-list {
+  width: 80%;
+  padding: 50px;
+  margin: 0px auto;
+
+  .companies-item {
+    font-size: 25px;
+    background-color: #089e00;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+
+    li {
+      &::marker {
+        content: counter(list-item) "› ";
+        color: white;
+      }
+    }
+
+    &:hover {
+      border-radius: 20px;
+    }
+  }
+}
