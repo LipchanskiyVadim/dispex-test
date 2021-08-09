@@ -10,7 +10,9 @@ const ApartmentClients = (props) => {
 ) : (
 		<ul className="client-wrap">
 			{props.flat.clients.map(client => (
+		<li key={client.id} className="client-item">
 			<ApartmentItem client={client} />
+		</li>
 		))}
 		</ul>
 	);
