@@ -13,14 +13,14 @@ const ApartmentClientItem = (props) => {
 	};
 
 	return (
-		<li key={props.client.id} className="client-item">
+	<>
 			<p>
 				<span>имя: {props.client.name}</span>
 				<span>email: {props.client.email}</span>
 				<span>телефон: {props.client.phone}</span>
 			</p>
 		<button className="client-button" onClick={() => onClientDelete(props.client)}>Удалить</button>
-	</li>
+	</>
 	);
 };
 
