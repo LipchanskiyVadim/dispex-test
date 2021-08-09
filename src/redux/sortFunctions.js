@@ -18,8 +18,8 @@ export const sortHouses = (array)=> {
 	const uniqueHouses = [];
 
 	array.forEach(list => {
-		if(!uniqueData.includes(list.building)) {
-			uniqueData.push(list.building);
+		if(!uniqueData.includes(list.houseId)) {
+			uniqueData.push(list.houseId);
 			uniqueHouses.push({building: list.building,
 				id: list.houseId, corpus: list?.corpus});
 			}})
